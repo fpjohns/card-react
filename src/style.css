@@ -1,0 +1,107 @@
+.app {
+  width: 400px;
+
+  margin: auto;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  position: relative;
+}
+.main img {
+  width: 400px;
+  height: 450px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main img {
+  background-color: black;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 1000;
+  padding: 20px 15px;
+}
+.card {
+  display: flex;
+  justify-content: end;
+}
+.card .data {
+  padding: 10px 30px;
+  border: none;
+  color: blue;
+  border-radius: 5px;
+  border: 2px solid;
+  background-color: white;
+  font-size: 22px;
+}
+.text {
+  text-align: start;
+  font-size: 18px;
+}
+.price {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.price span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.basket {
+  padding: 15px;
+}
+.basket .addbasket {
+  padding: 4px 25px;
+  color: white;
+  background-color: green;
+  font-size: 22px;
+  border-radius: 7px;
+}
+.basket .delbasket {
+  border: 0;
+  display: flex;
+  background-color: white;
+  padding-top: 10px;
+  color: red;
+}
+.basket .delbasket:hover {
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.9);
+}
+
+.basket .addbasket:hover {
+  color: red;
+  background-color: black;
+}
+.card_info {
+  height: fit-content;
+  width: 250px;
+  background-color: white;
+  position: absolute;
+  right: -55%;
+  bottom: 30%;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  color: red;
+  background-color: white;
+}
+.delete:hover {
+  scale: 1.1;
+}
+.card .data {
+  background-color: green;
+  color: white;
+  border-radius: 7px;
+}
+.data:hover {
+  background-color: black;
+  color: red;
+  border: none;
+}
